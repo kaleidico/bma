@@ -1,0 +1,31 @@
+.module-landing-button-cta {
+
+	margin: 0px auto;
+
+	.landing-button-cta	{
+		text-align: center;	
+	}
+	
+
+	a.learn_more {
+		display: block;
+		width: 200px;
+		color: $base-light !important;
+		font-family: Rubik, Arial;
+		font-weight: bold;	
+		font-size: 19px;
+		background-color: $orange-cta;
+		text-align: center;
+		padding: 12px;
+		border-radius: 5px;
+		margin: 0px auto;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}	
+	
+	
+
+	
+}

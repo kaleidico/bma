@@ -1,0 +1,11 @@
+.space-after-none { margin-top: 0 !important; margin-bottom: 0 !important; }
+.space-after-small { margin-top: 0 !important; margin-bottom: 40px !important; }
+.space-after-medium { margin-top: 0 !important; margin-bottom: 80px !important; }
+.space-after-large { margin-top: 0 !important; margin-bottom: 120px !important; }
+
+@media (max-width: 767px) {
+  .space-after-none { margin-top: 0 !important; margin-bottom: 0 !important; }
+  .space-after-small { margin-top: 0 !important; margin-bottom: 30px !important; }
+  .space-after-medium { margin-top: 0 !important; margin-bottom: 60px !important; }
+  .space-after-large { margin-top: 0 !important; margin-bottom: 80px !important; }
+}

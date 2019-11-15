@@ -1,0 +1,49 @@
+.module-fullwidth-cta-with-bg {
+	
+	margin: 0px auto;
+	
+	.fullwidth-cta-container {
+		padding: 100px 0px 100px;
+		text-align: center;
+	}
+	
+	.cta_heading {
+		font-family: Rubik, Arial;	
+		color: $black;
+		font-size: 52px;
+		font-weight: bold;
+		text-transform: uppercase;	
+		margin-bottom: 10px;
+	}
+	
+	.cta_content {		
+		width: 80%;
+		margin: 0px auto 20px;
+		
+		p {
+		font-family: Montserrat, Arial;
+		color: $black;
+		font-size: 28px;
+		font-weight: 500;		
+		}
+	}
+	
+	a.download {
+		display: block;
+		width: 150px;
+		color: $base-light !important;
+		font-family: Rubik, Arial;
+		font-weight: bold;	
+		font-size: 19px;
+		background-color: $orange-cta;
+		text-align: center;
+		padding: 12px;
+		border-radius: 5px;
+		margin:0px auto;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}	
+	
+}

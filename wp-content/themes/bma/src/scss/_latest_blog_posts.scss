@@ -1,0 +1,48 @@
+.module-latest_blog_posts {
+
+	margin: 0px auto;
+	
+	.first_post_title {
+		font-family: Rubik, Arial;	
+		color: $orange-cta;
+		font-size: 25px;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin: 25px 0px 20px;
+	}
+	
+	a.learn_more {
+		display: block;
+		width: 150px;
+		color: $base-light !important;
+		font-family: Rubik, Arial;
+		font-weight: bold;	
+		font-size: 19px;
+		background-color: $footer-heading;
+		text-align: center;
+		padding: 12px;
+		border-radius: 5px;
+		margin-bottom: 25px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}	
+
+	
+	.latest_blog_item {
+		height: 280px;
+		margin-bottom: 10px;
+		text-align:center;
+	}	
+
+	
+	.other_post_title {
+		font-family: Rubik, Arial;	
+		color: #0F191E;
+		font-size: 22px;
+		font-weight: bold;	
+		margin: 10px 0px;
+	}
+}
+

@@ -1,0 +1,33 @@
+.module-recent-events {
+	.btn-event {
+		font-family: 'Montserrat', sans-serif;
+		font-weight:700;
+	    background-color: #000;
+	    border-radius:3px;
+	    color: $base-light !important;
+	    padding: 12px 20px;
+	    display: inline-block;
+
+	    &:hover {
+	    	background-color:$footer-heading;
+	    }
+	}
+	.event-header-title {
+		font-family: 'Rubik', sans-serif;
+	    font-size: 36px;
+	    font-weight: bold;
+	    line-height: 2;
+	    text-transform: uppercase;
+	    margin-bottom: 20px;
+	}
+	.event-archive-list {
+		margin-bottom:50px;
+		.event-title {
+			font-family: 'Rubik', sans-serif;
+			font-size:24px;
+			font-weight:700;
+			padding:16px 0;
+			margin: 0;
+		}
+	}
+}

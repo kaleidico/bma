@@ -1,0 +1,53 @@
+.module-home-category-listing {
+
+	margin: 0px auto;
+	
+	.home-category-container {
+		text-align: center;
+	}
+	
+	.category_heading {
+		margin-bottom: 40px;
+		
+		h2 {
+			font-family: Rubik, Arial;
+			font-size: 35px;
+			font-weight: bold;
+			line-height: 2;
+			text-transform: uppercase;
+		}
+	}
+	
+	.category_img {
+		margin-bottom: 20px;
+	}
+	
+	h2.category_name {
+		font-family: Rubik, Arial;
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	
+	a.learn_more {
+		display: block;
+		width: 150px;
+		color: $base-light !important;
+		font-family: Rubik, Arial;
+		font-weight: bold;	
+		font-size: 19px;
+		background-color: $footer-heading;
+		text-align: center;
+		padding: 12px;
+		border-radius: 5px;
+		margin: 0px auto 20px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}	
+	
+	
+
+	
+}

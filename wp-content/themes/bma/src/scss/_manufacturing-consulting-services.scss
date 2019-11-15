@@ -1,0 +1,133 @@
+.module-manufacturing-consulting {
+
+	margin: 0px auto;
+
+	
+	.manufacturing_section {
+	
+		background-color: $light-grey;
+		text-align: center;
+		padding: 30px;
+		/*height: 462px;*/
+		margin-bottom: 15px;
+		
+		
+		h2 {
+			font-family: Rubik, Arial;
+			font-size: 29px;
+			font-weight: bold;
+			text-transform: uppercase;
+			margin-bottom: 0px;
+		}
+		
+		.consult_desc {
+		  font-size: 20px;
+		  font-family: "Montserrat";
+		  color: rgb(15, 25, 30);
+		  line-height: 1.5;	
+		  font-weight: 480;
+		  margin: 25px 0px;		  
+		}
+		
+	}
+	
+	#consult_form {
+		
+		.gform_wrapper {
+			margin:0;
+		}
+		.gform_wrapper ul.gform_fields li.gfield {
+			padding-right: 0px;	
+		}		
+		
+		.gform_wrapper li.hidden_label input {
+			margin-top: 0px;
+		}
+		
+		.gform_wrapper .gform_footer {
+			padding-top: 0px;	
+		}
+		
+		input {
+			width: 100%;
+			border: 0px;
+		}
+		
+		textarea {
+			width: 100%;
+			height: 80px;
+			border: 0px;
+		}
+		
+		::placeholder { 
+			font-family: "Montserrat";
+			font-size: 16px;
+			color: $nav-grey;
+			font-weight: bold;
+			padding-left: 10px;
+			opacity: 1; 
+		}
+
+		:-ms-input-placeholder { 
+			font-family: "Montserrat";
+			font-size: 16px;
+			color: $nav-grey;
+			font-weight: bold;
+			padding-left: 10px;
+		}
+
+		::-ms-input-placeholder { 
+			font-family: "Montserrat";
+			font-size: 16px;
+			color: $nav-grey;
+			font-weight: bold;
+			padding-left: 10px;
+		}
+		
+		input[type="submit"] {
+			display: block;
+			width: 150px;
+			color: #FFF !important;
+			font-family: Rubik, Arial;
+			font-weight: bold;
+			font-size: 19px;
+			background-color: #70ab54;
+			text-align: center;
+			padding: 12px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+			border-radius: 5px;
+			margin: 0 auto;		
+		}
+		
+	}
+	
+	
+	.consult_form {
+		width: 88%;
+		background-color: $light-grey;
+		margin-left: 25px;
+		padding: 30px 24px 13px;
+		/*height: 462px;*/
+		margin-bottom: 15px;
+		
+		h2 {
+			font-family: Rubik, Arial;
+			font-size: 29px;
+			font-weight: bold;		
+			text-transform: uppercase;
+			color: $black; 
+			text-align: center;
+		}
+
+		.free_text {
+			color: $orange-cta;
+		}
+		
+		h3 {
+			text-transform: uppercase;
+			text-align: center;
+		}		
+	}
+	
+}

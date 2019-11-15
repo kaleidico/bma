@@ -1,0 +1,111 @@
+.module-meet-our-lean-experts {
+
+	margin: 0px auto;
+	
+	.lean-experts-heading {	
+		text-align: center;
+		
+		h2 {
+			font-family: Rubik, Arial;
+			color: $orange-cta;
+			font-size: 35px;
+			font-weight: bold;
+			margin: 10px 0px 45px;
+			
+		}
+	}
+	
+	.expert_item {
+	
+		.expert_img {
+			margin-bottom: 20px;
+			min-height: 330px;
+
+			a {
+				display:block;
+			}
+			img {
+				width:238px;
+			}
+		}
+	
+		.expert_name {
+		  display: block;		
+		  font-size: 24px;
+		  font-family: "Rubik";
+		  color: $black !important;
+		  font-weight: bold;
+		  text-transform: uppercase;
+		  line-height: 1.25;
+		  text-align: left;
+		  margin-bottom: 0px;
+		  
+			&:hover {
+				color: $footer-heading !important;	
+			}		  
+		}
+		
+		.expert_position {
+		  font-size: 18px;
+		  font-family: "Montserrat";
+		  color: $black;
+		  line-height: 1.667;
+		  text-align: left;
+		  margin-bottom: 20px;
+		  font-weight: 500;
+		}
+		
+		.expert_btn {
+			background-color: $black;
+			color: $base-light !important;
+			font-size: 18px;
+			font-family: "Rubik";
+		    font-weight: bold;
+			width: 102px;
+			padding: 12px 45px;
+			margin-right: 20px;
+			display: inline-block;
+			border-radius: 4px;
+		}
+		
+		.expert_buy_books {
+			width: auto !important;
+			padding: 12px 15px !important;
+			margin-left: 20px;
+			
+			&:hover {
+				background-color: $footer-heading;
+			}
+		}
+		.expert_call {
+			background: $black url(./img/call-icon.png) no-repeat 10px 12px;
+			float:left;
+			
+			&:hover {
+					background-color: $footer-heading;
+			}				
+		}
+		
+		.expert_email {
+			background: $black url(./img/mail-icon.png) no-repeat 10px 12px;
+			float:left;
+			
+			&:hover {		
+				background-color: $orange-cta;
+			}
+			
+		}
+		
+		.expert_bio {
+			background: $black url(./img/bio-icon.png) no-repeat 10px 12px;
+			margin-right: 0px;
+			float:left;
+			
+			&:hover {		
+				background-color: $light-blue ;
+			}						
+		}		
+		
+	}
+	
+}

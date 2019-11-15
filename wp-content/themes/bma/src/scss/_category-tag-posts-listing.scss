@@ -1,0 +1,171 @@
+.module-category-tag-posts-listing {
+
+	margin: 0px auto;
+	
+	.category-tag-posts-container {
+		text-align: center;
+	}
+	
+	.category_lists {
+		margin-bottom: 40px;
+		
+		.btn-group {
+			display: block;
+		}		
+	}
+	#category_posts {
+		p{
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+	
+	#category_tags {
+		background-color: #ECECEC;
+		padding: 5px 2px 5px;
+		width: auto;
+		margin-bottom: 20px;
+		border-radius: 3px;
+		display: block !important;
+		//display: inline-block;
+
+	  @media screen and (max-width: 767px) {
+		display: block;
+	  }		
+	}	
+
+
+	.dlk-radio {
+	
+		.btn-category {
+			border-radius: 5px !important;
+			margin-right: 15px;
+			padding: 25px 35px;
+			background-color: #EFEFEF;
+			font-weight: bold;
+			
+			input[type="checkbox"] {
+				margin-left:-99999px;
+				display:none;
+			}
+
+			input[type="checkbox"] + .fa {
+				 opacity:0;
+				 position: absolute;
+				 font-size: 10px;
+				 left:3px;
+				 top: 3px;				 
+			}
+
+			input[type="checkbox"]:checked + .fa {
+				opacity:1;
+				color: #679F51;
+				background-color: #fff;
+				border-radius: 10px;
+				padding:3px;
+				
+			}	
+			
+		}
+		
+		.btn-categorytags {
+			border-radius: 5px !important;
+			padding: 15px 15px;			
+			font-weight: bold;
+			margin-left:4px;
+			margin-right: 4px;
+			margin-bottom: 3px;
+			margin-top: 3px;
+			
+			
+			input[type="checkbox"] {
+				margin-left:-99999px;
+				display:none;
+			}
+
+			input[type="checkbox"] + .fa {
+				 opacity:0;
+				 font-size: 8px;
+				 position: absolute;
+				 left:3px;
+				 top: 3px;
+			}
+
+			input[type="checkbox"]:checked + .fa {
+				opacity:1;
+				color: $orange-cta;
+			}					
+		}		
+		
+	}
+	
+	.form-check-input {
+		width: 17px;
+		height: 17px;
+	}
+	
+	.toggle-all-chk.form-check {
+		    display: inline-block;
+		
+		.form-check-label {
+			font-weight:600;
+		}
+		.form-check-input {
+			position: relative;
+		    margin-top: 0;
+		    margin-left: 0;
+		}
+
+	}			
+	
+	.section_heading {
+		margin-bottom: 40px;
+		
+		h2 {
+			font-family: Rubik, Arial;
+			font-size: 36px;
+			font-weight: bold;
+			line-height: 2;
+			text-transform: uppercase;
+			margin-bottom: 20px;
+		}
+	}
+	
+	
+	.post_item {
+		margin-bottom: 35px;		
+	}
+	
+	.post_img {
+		margin-bottom: 20px;
+	}		
+	
+	h2.post_name {
+		font-family: Rubik, Arial;
+		font-size: 24px;
+		font-weight: bold;
+		margin-bottom: 20px;
+		text-align: left;
+	}
+	
+	a.learn_more {
+		display: block;
+		width: 150px;
+		color: $base-light !important;
+		font-family: Rubik, Arial;
+		font-weight: bold;	
+		font-size: 19px;
+		background-color: $footer-heading;		
+		padding: 12px;
+		border-radius: 5px;
+		margin-bottom:  20px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}	
+	
+	
+
+	
+}

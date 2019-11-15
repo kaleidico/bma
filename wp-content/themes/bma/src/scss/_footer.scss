@@ -1,0 +1,63 @@
+.footer-container {
+  background-color: $light-grey;
+  padding: 60px 0;
+  .widgettitle {
+    color: $footer-heading;
+    text-transform: uppercase;
+    font-family: Rubik, Arial;
+    font-weight: 500;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0;
+    font-family: Rubik, Arial;
+    font-weight: 500;
+  }
+  .footer-social-icon {
+    margin-right: 10px;
+    font-size: 25px;
+  }
+  .icon-facebook {
+    color: #3b5998;
+    &:hover {
+      opacity: 0.8;
+      transition: opacity .25s ease-in-out;
+    }
+  }
+  .icon-twitter {
+    color: #1da1f2;
+    &:hover {
+      opacity: 0.8;
+      transition: opacity .25s ease-in-out;
+    }
+  }
+  .icon-linkedin {
+    color: #0077b5;
+    &:hover {
+      opacity: 0.8;
+      transition: opacity .25s ease-in-out;
+    }
+  }
+  .copyright {
+    font-family: Rubik, Arial;
+    font-weight: 500;
+    text-transform: uppercase;
+    .copy {
+      color: $orange-cta;
+    }
+  }
+  #gform_submit_button_1 {
+    margin-left: -15px;
+    margin-top: 12px;
+    padding: 6px 15px;
+    color: #FFF;
+    background-color: #0f191e;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .website-logo {
+    margin: 10px 0;
+  }
+}
